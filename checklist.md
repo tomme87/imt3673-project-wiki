@@ -10,4 +10,4 @@ Following tasks are identified:
 * Create RunTest Activity (that should run chosen test, need to be implemented as a package for ech test type to ensure that questions and input from users fit the test eg. integer input for Ishihara test, click on rectangle that has different colour for another test etc)
 * PlateFragments that are designe for a concrete test type
 * Create logic to summerize test results
-* Create payload of ResultSet an upload/POST as json to results server
+* Create payload of ResultSet an upload/POST as json to results server (store in local storage/database to summerize results from more then one test)
