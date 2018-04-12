@@ -1,5 +1,5 @@
-[Data structure proposal](https://bitbucket.org/tomme87/imt3673-project/wiki/Implementation)
+[Data structure proposal](https://github.com/tomme87/imt3673-project-wiki/blob/master/Implementation.md)
 
-[How we interpret Ishihara test](https://bitbucket.org/tomme87/imt3673-project/wiki/Ishihara%20test%20intrpretation)
+[How we interpret Ishihara test](https://github.com/tomme87/imt3673-project-wiki/blob/master/Ishihara%20test%20intrpretation.md)
 
-[GUI proposal](https://bitbucket.org/tomme87/imt3673-project/wiki/GUI)
+[GUI proposal](https://github.com/tomme87/imt3673-project-wiki/blob/master/GUI.md)
