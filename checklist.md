@@ -2,7 +2,7 @@
 Following tasks are identified:
 
 * create picture set that represents one test (pack it along with json file into a zip file) and place it on public available URL
-* API that responds with json (array of TestInfo objects) - mock, firebase...
+* API that responds with json (array of TestInfo objects) - mock, firebase, mLab+GO...
 * Fetch Test list from that API.
 * Create Activity/Fragment with a list of available tests to download (when downloaded populate list, on element click start download service)
 * Download Service (create folder named <TestID>, unzip pictures and plates.json there, run Local Database Service to add TestInfo to local tests)
