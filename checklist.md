@@ -14,7 +14,7 @@ Could support wider range of colors than sRGB (then bound to minimum Android 8.0
 * Create Activity/Fragment with a list of downloaded (local) tests (run Local Database Service to populate list, on element click start run test activity)
 * (optional) add mobile screen colour calibration (Enhancing Graphics with Wide Color Content ?)
 * (optional) implement Activity to adjust screen brightness before test (do it only once ? onCreate? onResume?)
-* Create RunTest Activity (that should run chosen test, need to be implemented as a package for ech test type to ensure that questions and input from users fit the test eg. integer input for Ishihara test, click on rectangle that has different colour for another test etc)
+* Create RunTest Activity (that should run chosen test, need to be implemented as a package for ech test type to ensure that questions and input from users fit the test eg. integer input for Ishihara test, click on rectangle that has different colour for another test etc). All necessary data (pictures from local storage) will be get after "Run test" button clicked (don't fetch resources in advance).
 * (optional) Show the same plate multiply times, use eg Plate.priority or randomize (implementation proposal Plate object in Test.plates more than once, but show always then the same number of plates - fixed 15 ?)
 * Create JSON parser that could create Set<Plate> out of plates.json file in test folder
 * PlateFragments that are designed for a concrete test type (consider timer - eg max 3 sec to give an answer on Ishihara test)
