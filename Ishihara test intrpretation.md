@@ -8,6 +8,8 @@ When attributes IshiharaPlate.protanStrong and IshiharaPlate.deutanStrong are NO
 * Normal (N)
 * Mild Deutan (MD)
 
-To decide it an extra question will be asked about which of the numbers is more clear for a test subject. Example of plate number 16 is presented on a picture below.
+Alternative could be an extra question will be asked about which of the numbers is more clear for a test subject. Example of plate number 16 is presented on a picture below.
 
 ![md_project_02.png](https://bitbucket.org/repo/x8G5dpK/images/2740251268-md_project_02.png)
+
+After discussion we decided to use standard Ishihara test interpretation. Plates 1-15 indicates deficiency, plates 16 and 17 could indicate additional Protan/Deutan but only strong version.
