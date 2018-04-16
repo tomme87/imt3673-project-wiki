@@ -11,11 +11,12 @@ As in IshiharaPlate example below, for basic red-green deficiency attributes "pr
 IshiharaPlate
 {
   "id":           int,    //  plate id and filename
+  "type"          String  // picture type "png", "jpeg" etc that indicates file extension
   "normal":       int,    //  expected input value for normal vision
   "protanStrong": int,    //  expected input value for vision deficiency
   "deutanStrong": int,    //  expected input value for vision deficiency
   "total":        int,    //  expected input value for total color blindness
-  "extra":        bool    //  if true this plate is not to be in calculation of primary results 
+  "extra":        bool    //  if true this plate is not to be in calculation of primary results  
 }
 ```
 
@@ -28,13 +29,14 @@ API that responses with an array of JSON objects (available test as shown above)
 TestInfo
 {
   "id":           String,   // uuid()
-  "name":         String,   //
-  "description":  String,   //
-  "resourceUrl":  String,   // 
-  "resultsUrl":   String,   // 
-  "type":         String,   // enum? test type eg "Ishihara"
-  "version":      int,      // 
+  "name":         String,   // test name
+  "description":  String,   // test description
+  "resourceUrl":  String,   // URL to <TestID>.zip file
+  "resultsUrl":   String,   // URL to POST results to
+  "type":         String,   // test type eg "Ishihara"
+  "version":      int,      // if used
   "created":      int,      // timestamp
+  "firstPlate"    int       // null if not relevant  
 }
 
 ```
