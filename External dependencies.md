@@ -10,8 +10,8 @@ As in IshiharaPlate example below, for basic red-green deficiency attributes "pr
 #!json
 IshiharaPlate
 {
-  "id":           int,    //  plate id and filename
-  "type"          String  // picture type "png", "jpeg" etc that indicates file extension
+  "id":           int,    //  plate id 
+  "filename"      String  //  file path <TestID>/"filename"
   "normal":       int,    //  expected input value for normal vision
   "protanStrong": int,    //  expected input value for vision deficiency
   "deutanStrong": int,    //  expected input value for vision deficiency
