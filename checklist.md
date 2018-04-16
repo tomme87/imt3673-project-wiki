@@ -4,10 +4,11 @@ Main goal is an app that can run standard tests, like Basic Ishihara, that has s
 Could support wider range of colors than sRGB (then bound to minimum Android 8.0, API 26+)
 
 * create picture set that represents one test (pack it along with json file into a zip file) and place it on public available URL, (different sets of pictures ?)
-* (optional) create one set of .svg files and randomize colours
+* (optional) create one set of .svg files and randomize colours on local device
 * API that responds with json (array of TestInfo objects) - mock, firebase, mLab+GO... (data need to match resources URL)
 * Fetch Test list from that API.
 * Create Activity/Fragment with a list of available tests to download (when downloaded populate list, on element click start download service)
+* Local database (stores Test Info for downloaded and available - decide when to update list from a server - is it needed evry time the list is shown?)
 * Download Service (create folder named <TestID>, unzip pictures and plates.json there, run Local Database Service to add TestInfo to local tests)
 * Create Activity/Fragment with a list of downloaded (local) tests (run Local Database Service to populate list, on element click start run test activity)
 * (optional) add mobile screen colour calibration (Enhancing Graphics with Wide Color Content ?)
