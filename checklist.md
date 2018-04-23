@@ -10,7 +10,7 @@ Could support wider range of colors than sRGB (then bound to minimum Android 8.0
 * Create Activity/Fragment with a list of available tests to download (when downloaded populate list, on element click start download service)
 * Local database (stores Test Info for downloaded and available - decide when to update list from a server - is it needed evry time the list is shown?)
 * Download Service (create folder named <TestID>, unzip pictures and plates.json there, run Local Database Service to add TestInfo to local tests)
-* (optional) Create folder named <TestID> with pictures and plates.json in Assets. Use the for GUI/Run Test Activity as a demo/default. Replace with internal storage later (or keep both sources?)
+* (optional) Create folder named <TestID> with pictures and plates.json in Assets. Use the for GUI/Run Test Activity as a demo/default. Replace with internal storage later (or keep both sources) - skipping, go for internal storage.
 * Create Activity/Fragment with a list of downloaded (local) tests (run Local Database Service to populate list, on element click start run test activity)
 * (optional) add mobile screen colour calibration (Enhancing Graphics with Wide Color Content ?)
 * (optional) implement Activity to adjust screen brightness before test (do it only once ? onCreate? onResume?)
