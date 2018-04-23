@@ -6,7 +6,7 @@ Could support wider range of colors than sRGB (then bound to minimum Android 8.0
 * create picture set that represents one test (pack it along with json file into a zip file) and place it on public available URL, (different sets of pictures ?)
 * (optional) create one set of .svg files and randomize colours on local device
 * API that responds with json (array of TestInfo objects) - mock, firebase, mLab+GO... (data need to match resources URL)
-* Fetch Test list from that API.
+* Fetch Test list from that API (optional list of tests as a json file on given url).
 * Create Activity/Fragment with a list of available tests to download (when downloaded populate list, on element click start download service)
 * Local database (stores Test Info for downloaded and available - decide when to update list from a server - is it needed evry time the list is shown?)
 * Download Service (create folder named <TestID>, unzip pictures and plates.json there, run Local Database Service to add TestInfo to local tests)
