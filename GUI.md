@@ -1,4 +1,6 @@
 # GUI proposal #
+Comments to GUI:
+* avoid colours that could distract user taking the test (skip colours and menu?)
 ## Activities ##
 ### Activity 1 ###
 Main activity consist of:
