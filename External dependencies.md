@@ -28,15 +28,14 @@ API that responses with an array of JSON objects (available test as shown above)
 #!json
 TestInfo
 {
-  "id":           String,   // uuid()
-  "name":         String,   // test name
-  "description":  String,   // test description
-  "resourceUrl":  String,   // URL to <TestID>.zip file
-  "resultsUrl":   String,   // URL to POST results to
-  "type":         String,   // test type eg "Ishihara"
-  "version":      int,      // if used
-  "created":      int,      // timestamp
-  "firstPlate"    int       // null if not relevant  
+  "id":               String,   // uuid()
+  "name":             String,   // test name
+  "description":      String,   // test description
+  "resources":        String,   // URL to <TestID>.zip file
+  "resultsServer":    String,   // URL to POST results to
+  "type":             String,   // test type eg "Ishihara"
+  "version":          int,      // if used
+  "firstPlate"        int       // null if not relevant  
 }
 
 ```
