@@ -26,7 +26,7 @@ Next picture shows Plate 16 that need an extra question asked if the answer is 2
 
 ![md_project_07.png](https://bitbucket.org/repo/x8G5dpK/images/2449298398-md_project_07.png)
 
-Additional qustion is proposed as on a picture below.
+Additional qustion is proposed as on a picture below (this will not be implemented)
 
 ![md_project_08.png](https://bitbucket.org/repo/x8G5dpK/images/1969922708-md_project_08.png)
 
