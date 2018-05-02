@@ -1,7 +1,7 @@
 ## Tasks ##
 Following tasks are identified:
 Main goal is an app that can run standard tests, like Basic Ishihara, that has some variance in plates and randomized sequence of plates. Use plates with numbers and input as free text not buttons that suggest an answer.
-Could support wider range of colors than sRGB (then bound to minimum Android 8.0, API 26+)
+Could support wider range of colors than sRGB (then bound to minimum Android 8.0, API 26+), but this is not implemented in this version.
 
 * (DONE) create picture set that represents one test (pack it along with json file into a zip file) and place it on public available URL, (different sets of pictures ?)
 * (NOT DOING - insufficient time to prepare a set of vector graphics that could have a randomize colours when running a test) (optional) create one set of .svg files and randomize colours on local device
