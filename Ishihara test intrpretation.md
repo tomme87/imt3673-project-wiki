@@ -1,4 +1,5 @@
 First picture shows how to interpret results from a plate that doesn't distinguish between protan/deutan deficiency. It is expected that in this case values of attributes IshiharaPlate.protanStrong and IshiharaPlate.deutanStrong are the same and that indicate general red-green deficiency.
+![plate_no_2](https://github.com/tomme87/imt3673-project-wiki/blob/master/02.gif)
 
 ![md_project_03.png](https://bitbucket.org/repo/x8G5dpK/images/166905674-md_project_03.png)
 
