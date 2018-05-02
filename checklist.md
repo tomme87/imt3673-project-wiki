@@ -4,7 +4,7 @@ Main goal is an app that can run standard tests, like Basic Ishihara, that has s
 Could support wider range of colors than sRGB (then bound to minimum Android 8.0, API 26+)
 
 * (DONE) create picture set that represents one test (pack it along with json file into a zip file) and place it on public available URL, (different sets of pictures ?)
-* (NOT DOING - no time to prepare a set of vector graphics that could have a randomize colours when running a test) (optional) create one set of .svg files and randomize colours on local device
+* (NOT DOING - insufficient time to prepare a set of vector graphics that could have a randomize colours when running a test) (optional) create one set of .svg files and randomize colours on local device
 * (DONE - json file on public URL) API that responds with json (array of TestInfo objects) - mock, firebase, mLab+GO... (data need to match resources URL) (alternative: list of tests as a json file on given url that represents possible API response)
 * (DONE - downloading .json file) Fetch Test list from that API or .json file.
 * (DONE) Create Activity/Fragment with a list of available tests to download (when downloaded populate list, on element click start download service)
@@ -15,6 +15,7 @@ Could support wider range of colors than sRGB (then bound to minimum Android 8.0
 * (NOT DOING - time, high-end devices) (optional) add mobile screen colour calibration (Enhancing Graphics with Wide Color Content ?)
 * (DONE - showed before test starts) (optional) implement Activity to adjust screen brightness before test (do it only once ? onCreate? onResume?)
 * (DONE) Create RunTest Activity (that should run chosen test, need to be implemented as a package for each test type to ensure that questions and input from users fit the test eg. integer input for Ishihara test, click on rectangle that has different colour for another test etc). All necessary data (pictures from local storage) will be get after "Run test" button clicked (don't fetch resources in advance).
+* (DONE) There is a limit of three seconds to give an answer on the analog version of the Ishihara test. After discussion we decided that this should be changed. To allow adjustment it is possible to add an attribute timeLimit (Integer) to a thresholds.json file; if this attribute is null or negative time limit is set to a default value.
 * (DONE) (optional) Show the same plate multiply times, use eg Plate.priority or randomize (implementation proposal Plate object in Test.plates more than once, this could be decided by test author, who may use multiply Plate objects in plates.json file)
 * (DONE) Create JSON parser that could create Set<Plate> out of plates.json file in test folder
 * (DONE) PlateFragments that are designed for a concrete test type (consider timer - eg max 3 sec to give an answer on Ishihara test)
