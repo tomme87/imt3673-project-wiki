@@ -4,4 +4,4 @@ Test includes a list of Plates that are available to download from URL indicated
 Summary of results may consider thresholds.json file, on a picturre below an example of a class (IshiharaThreshold) that the JSON file is marshalled to; two attributes are used to give a general answer (normal, uncertain, deficiency); counters for Deutan and Protan answers can additionally indicate strong Deutan/Protan deficiency if possible based on given answers - if not assume a general red-green deficiency.
 ResultSet in addition to a set of Results may contain metadata (not defined yet) that could be eg. local time, light intensity while test taken or general personal data (gender, age etc) if accepted by user and needed for research. If chose to publish, the ResultSet will be send to defined in Test server (this need to be implemented separately if results are to be gathered).
 
-![md_project_01_v5.png](https://github.com/tomme87/imt3673-project-wiki/blob/master/md_project_01_v5.png)
+![md_project_v5.png](https://github.com/tomme87/imt3673-project-wiki/blob/master/md_project_v5.png)
