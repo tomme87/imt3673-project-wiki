@@ -1,7 +1,9 @@
 # GUI proposal #
 Comments to GUI:
-* avoid colours that could distract user taking the test.
+* avoid colours that could distract user taking the test. (DONE)
 * don't implement additional question to distinct strong and mild (for both Protan and Deutan)
+Add-on:
+* added a fragment for downloading the test chosen from the available tests list (test info, active download button, inactive start test button - download button is deactivated when clicked; start test button activated when downloading complete and db updated, i.e. added to local tests)
 ## Activities ##
 ### Activity 1 ###
 Main activity consist of:
