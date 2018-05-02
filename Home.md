@@ -15,6 +15,8 @@ An application that can help to detect colour vision deficiency. The main goal i
 ## Data structures ##
 [External dependencies](https://github.com/tomme87/imt3673-project-wiki/blob/master/External%20dependencies.md)
 
+(example .json and .zip files)
+
 [Data structure implementation](https://github.com/tomme87/imt3673-project-wiki/blob/master/Implementation.md)
 
 ## TODO list ##
