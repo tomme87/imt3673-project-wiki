@@ -1,6 +1,7 @@
 # GUI proposal #
 Comments to GUI:
-* avoid colours that could distract user taking the test (skip colours and menu?)
+* avoid colours that could distract user taking the test.
+* don't implement additional question to distinct strong and mild (for both Protan and Deutan)
 ## Activities ##
 ### Activity 1 ###
 Main activity consist of:
