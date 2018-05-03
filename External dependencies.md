@@ -52,13 +52,14 @@ IshiharaPlate
 }
 ```
 
- * thresholds.json - an additional JSON file with extra data concerning results interpretation. In an Ishihara test example number of plates with an answer indicating normal sight is considered; two values are used in the JSON file: normal - number of answers above this limit means "normal sight", deficiency - the number of answers below it means "red-green" colour deficiency. If number of given answers is between those two values - the result is uncertain.
+ * thresholds.json - an additional JSON file with extra data concerning results interpretation. In an Ishihara test example number of plates with an answer indicating normal sight is considered; two values are used in the JSON file: normal - number of answers above this limit means "normal vision", deficiency - the number of answers below it means "red-green" colour deficiency. If number of given answers is between those two values - the result is uncertain. We use 5 seconds limit for an answer, but it could be overidden by a timeLimit attribute.
   ```
 #!json
 IshiharaThreshold
 {
   "normal":       int,    //  expected input value for normal vision
   "deficiency":   int,    //  expected input value for vision deficiency
+  "timeLimit":    int     //  optional, to define "show plate" time (other then default)
 }
 ```
 
